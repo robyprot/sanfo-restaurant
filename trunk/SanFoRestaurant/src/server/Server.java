@@ -47,7 +47,7 @@ public class Server implements Runnable{
 	public void run() { 
 		try { 
 			System.out.println("S: Connecting..."); 
-			serverSocket = new ServerSocket(11111); // cercare porta libera
+			serverSocket = new ServerSocket(11115); // cercare porta libera
 			InetAddress serverIp = InetAddress.getLocalHost();
 			System.out.println(serverIp);
 			ipServer = serverIp.toString();
